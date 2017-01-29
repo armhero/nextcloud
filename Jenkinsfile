@@ -27,6 +27,7 @@ node('armhf') {
           sudo docker push armhero/nextcloud:${BRANCH_NAME}
         fi
 
+        curl -X POST https://hooks.microbadger.com/images/armhero/nextcloud/tCK8AyUIlPJk-fpjfmeI8EXbmAo=
       '''
     }
   }
