@@ -20,7 +20,7 @@ node('armhf') {
 
         if [[ "\044{BRANCH_NAME}" == "master" ]]; then
           # when we are in the master branch, then set a new tag
-          sudo docker tag armhero/nextcloud:\044{BRANCH_NAME} armhero/jenkins-slave:latest
+          sudo docker tag armhero/nextcloud:\044{BRANCH_NAME} armhero/nextcloud:latest
 
           sudo docker push armhero/nextcloud:latest
         else
