@@ -89,5 +89,5 @@ COPY etc/nextcloud/docker.config.php /opt/nextcloud/config/docker.config.php
 
 EXPOSE 80
 
-ENTRYPOINT ["/sbin/tini", "--"]
+#ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/usr/local/bin/run.sh"]
