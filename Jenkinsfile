@@ -1,6 +1,6 @@
 #!groovy
 
-node('armhf') {
+node('armv7') {
   stage('Checkout') {
     checkout scm
   }
