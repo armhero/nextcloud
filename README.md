@@ -6,7 +6,7 @@
 
 Easy usable docker image for [Nextcloud](http://nextcloud.com), the community fork of OwnCloud.
 
-**Warning!** This image is made for ARM and therefor does only run on things like the Raspberry Pi.
+**Warning!** This image is made for ARM and therefor does only run on things like the Raspberry Pi. It works only on the ARMv7 platform (RPi 2 and above).
 
 ## Features
 
